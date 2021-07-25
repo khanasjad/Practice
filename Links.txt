@@ -1,0 +1,22 @@
+Core  Java
+
+https://howtodoinjava.com/java14/java14-new-features/
+
+JVM Memory- https://www.youtube.com/watch?v=ckYwv4_Qtmo
+Spring
+
+https://malalanayake.wordpress.com/2014/07/27/spring-mvc-with-spring-hibernate/
+
+Springboot 
+
+https://www.youtube.com/watch?v=9SGDpanrc8U&list=PLwvrYc43l1MzeA2bBYQhCWr2gvWLs9A7S
+
+Microservices / Docker
+
+https://www.youtube.com/watch?v=tuJqH3AV0e8
+
+https://www.youtube.com/watch?v=bhBSlnQcq2k
+
+GIT
+
+https://drive.google.com/drive/folders/0BzJ7BVTXfz2AZVNaR1h1cjFkZmc?resourcekey=0-9Ga0CwMuk8FTo_dn0HGbIg

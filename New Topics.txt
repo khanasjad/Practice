@@ -1,0 +1,14 @@
+https://us06web.zoom.us/j/8288913587?pwd=VkR3aTM1aDIvT2FObmhEdnRyNzhLUT09
+
+Sorting All
+Search Binary
+Try Catch Recurssion
+Enum
+Java generics
+Singleton
+Annotations Java 8
+Iostream 
+Serialization
+Java 8
+ Lambda 
+StreamAPI
