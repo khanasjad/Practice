@@ -14,8 +14,7 @@ enum COUNTRY {
 
 public class Main {
 
-    
-    static COUNTRY country;
+    COUNTRY country;
 
     public Main(COUNTRY country){
         this.country  = country;
@@ -55,20 +54,20 @@ public class Main {
         String value1 = "USA";
         String value2 = "UK";
         String value3 = "CANADA";
-        Main nation = new Main(country.valueOf(value));
+        Main nation = new Main(COUNTRY.valueOf(value));
 
         nation.test();
 
-        Main nation1 = new Main(country.valueOf(value1));
+        Main nation1 = new Main(COUNTRY.valueOf(value1));
 
         nation1.test();
         nation.test();
 
-        Main nation2 = new Main(country.valueOf(value2));
+        Main nation2 = new Main(COUNTRY.valueOf(value2));
 
         nation2.test();
 
-        Main nation3 = new Main(country.valueOf(value3));
+        Main nation3 = new Main(COUNTRY.valueOf(value3));
         nation3.test();
 
     }
