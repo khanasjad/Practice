@@ -88,6 +88,11 @@ public class Main {
         hm.put(2,"USA");
         hm.put(3,"Canada");
 
+        HashMap<Integer,String> hm2 = new HashMap<Integer,String>();
+        hm.put(1,"India");
+        hm.put(2,"USA");
+        hm.put(3,"Canada");
+
         String z = hm.get(1);
         System.out.println(z);
 
@@ -97,6 +102,41 @@ public class Main {
           System.out.println(e.getKey() +" " +e.getValue());
 
         }
+        System.out.println("************************************TREEMAP***************************************************");
+        TreeMap<Integer,String> tm = new TreeMap<Integer,String>();
+        tm.put(1,"India");
+        tm.put(2,"USA");
+        tm.put(3,"Canada");
+
+
+
+        String z1 = tm.get(1);
+        System.out.println(z1);
+
+        System.out.println(tm);
+
+
+        Set<Map.Entry<Integer,String>> e1 = tm.entrySet();
+        Map.Entry<Integer,String> [] entArray = e1.toArray(new Map.Entry[e1.size()]);
+
+        for (int i = 0; i < 3; i++)
+        {
+
+            System.out.println("Key at " + i + ":"
+                    + entArray[i].getKey());
+
+            System.out.println("Value at " + i + ":"
+                    + entArray[i].getValue());
+        }
+
+
+
+
+
+
+
+        
+
 
 
     }
