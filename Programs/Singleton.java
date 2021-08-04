@@ -8,8 +8,9 @@ import java.util.*;
 
 import java.util.ArrayList;
 
-System.out.println("***********************Singleton******************")
+
 class Abc{
+
     static Abc obj = new Abc();
 
     private Abc(){
@@ -23,7 +24,7 @@ class Abc{
 public class Main {
 
     public static void main(String[] args) {
-
+        System.out.println("***********************Singleton******************");
      Abc abc = Abc.getInstance();
      Abc abc1 = Abc.getInstance();
 
